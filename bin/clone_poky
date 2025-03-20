@@ -1,0 +1,13 @@
+
+cd ~/agl/external
+git clone git://git.yoctoproject.org/poky
+cd poky
+
+
+git checkout -t origin/styhead
+git pull
+
+source oe-init-build-env
+
+
+
